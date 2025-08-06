@@ -20,7 +20,7 @@
 
 pip install 安装：
 ```bash
-pip install https://github.com/developmentpeanut/celltimer.git
+pip install git+https://github.com/developmentpeanut/celltimer.git
 ```
 
 或从源码安装:
