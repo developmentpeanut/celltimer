@@ -42,6 +42,19 @@ cd celltimer
 pip install .
 ```
 
+## 自动加载扩展 - VS Code 自动加载扩展
+1. 打开 VS Code 设置（快捷键：`Ctrl + ,` 或 `Cmd + ,`）。
+2. 搜索 `Jupyter: Run Startup Commands`。
+3. 点击“在 settings.json 中编辑”（或手动打开设置文件）。
+4. 在 `settings.json` 中添加以下内容：
+   ```json
+   "jupyter.runStartupCommands": [
+       "%load_ext celltimer"
+   ]
+   ```
+5. 保存后重启 Jupyter Kernel。
+
+
 ## 使用方法
 
 ### 1. 加载扩展
