@@ -18,13 +18,17 @@
 
 ## 安装
 
-### 从源码安装
-下载 `celltimer-0.1.0.zip` 并使用 pip 安装：
+pip install 安装：
+```bash
+pip install https://github.com/developmentpeanut/celltimer.git
+```
+
+或从源码安装:
 ```bash
 pip install celltimer-0.1.0.zip
 ```
 
-或github安排：
+或git 安装：
 ```bash
 git clone https://github.com/developmentpeanut/celltimer.git
 cd celltimer
