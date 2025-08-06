@@ -26,7 +26,7 @@ pip install celltimer-0.1.0.zip
 
 或github安排：
 ```bash
-git clone https://github.com/yourname/celltimer.git
+git clone https://github.com/developmentpeanut/celltimer.git
 cd celltimer
 pip install .
 ```
